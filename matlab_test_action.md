@@ -204,3 +204,15 @@ To specify test options or generate coverage reports:
 4. Explore additional MATLAB Actions for deployment or packaging
 
 For more information, visit the [MATLAB Actions documentation](https://github.com/matlab-actions).
+
+## Important Notes
+
+### Action Version Updates
+
+The GitHub Actions used in this workflow may receive updates over time. The version numbers in the examples (e.g., `@v4`, `@v2`) should be checked periodically and updated as needed:
+
+- **`actions/checkout@v4`**: Check for newer versions at [actions/checkout releases](https://github.com/actions/checkout/releases)
+- **`matlab-actions/setup-matlab@v2`**: Check for newer versions at [matlab-actions/setup-matlab releases](https://github.com/matlab-actions/setup-matlab/releases)
+- **`matlab-actions/run-tests@v2`**: Check for newer versions at [matlab-actions/run-tests releases](https://github.com/matlab-actions/run-tests/releases)
+
+When updating versions, review the release notes for any breaking changes or new features that might affect your workflow configuration.
